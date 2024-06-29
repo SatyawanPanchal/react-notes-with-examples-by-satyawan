@@ -1,0 +1,22 @@
+
+.btn_showmore{
+    color: yellow;
+    border: none;
+    background-color: transparent;
+    font-size: larger;
+    margin-top: 10px ;
+
+ 
+    cursor: pointer;
+}
+
+.btn_showmore:hover{
+    transform: rotate(-4deg)   ;
+    transition: all ease-in-out 0.2s;
+    color: green;
+}
+.pointsdiv{
+    background-color: rgb(29, 40, 7);
+    color: white;
+    border-radius: 20px;
+}

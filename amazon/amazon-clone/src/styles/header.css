@@ -1,0 +1,138 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.headerdiv {
+  height: 6.5vh;
+  display: flex;
+  flex-direction: row;
+   gap: 20px;
+  background-color: #131921;
+  color: white;
+  margin-bottom: 5px;
+  border: 2px solid white;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  margin: 15px;
+}
+.amazonicon_image {
+ width:  120%;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+.leftdiv {
+  display: flex;
+  gap: 0;
+  width: 30%;
+}
+.deliverdiv {
+  display: flex;
+}
+
+.imgdiv {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+}
+.imgdiv img {
+  width: 25px;
+}
+.infodiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 5px;
+  color: #ffffff;
+  font-size: 14px;
+}
+.infodiv span {
+  color: #cccccc;
+  font-size: 12px;
+}
+
+.middlediv {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: black;
+  gap: 0;
+  width: 33%;
+
+}
+
+.middlediv img {
+  background-color: #febd69;
+  height: 91%;
+  
+}
+.inputdiv{
+  width: 80%;
+}
+
+.middlediv input {
+  height: 86%;
+  width: 100%;
+text-align: center;
+}
+
+.rightdiv {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: space-around;
+  padding-right: 5px;
+  padding-left: 5px;
+  border: 1px solid transparent;
+  margin-right: 10px;
+  width: 33%;
+  font-size: 1rem;
+  color: white;
+}
+.langdiv img {
+  width: 20px;
+  background-color: white;
+}
+
+.langdiv span {
+  font-size: 1rem;
+  padding-left: 5px;
+}
+.cartdiv{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.cartdiv img{
+
+  height: 25px;
+  color: white;
+ background-color: white;
+}
+.accountdiv{
+  color: white;
+}
+.accountdiv span{
+  font-size: 0.9rem;
+}
+
+.accountdiv p{
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.returndiv span{
+  color: white;
+  font-size: 0.9rem;
+}
+
+.returndiv p{
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
