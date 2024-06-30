@@ -4,7 +4,7 @@ import locationImage from "./images/location1.svg";
 import iconImage from "./images/logo.png";
 import serchImage from "./images/Search.svg";
 import indiaImage from "./images/indiaflag.svg";
-import cartImage from "./images/cart1.svg";
+import cartImage from "./images/products/icons.png";
 
 const Header = () => {
   return (
@@ -61,8 +61,8 @@ const Header = () => {
           <div className="cartdiv1">
             <a className="cartdiv" href="#">
               <span>cart</span>
-              <span>
-                <img src={cartImage} alt="carimage" />
+              <span className="imageContainer">
+                <img className="cartImage" src={cartImage} alt="carimage" />
               </span>
             </a>
           </div>

@@ -1,0 +1,18 @@
+
+.navbar-list{
+    background-color:beige;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    font-size: 2rem;
+   
+}
+.navbar-list li
+{
+    list-style: none;
+    list-style-type: none;
+}
+
+img{
+    width: 100vw;
+}

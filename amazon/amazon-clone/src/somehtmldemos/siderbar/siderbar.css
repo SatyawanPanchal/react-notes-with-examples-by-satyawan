@@ -1,0 +1,29 @@
+.topdiv{
+     
+    background-color: rgb(12, 167, 69);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.maindiv{
+    display: flex;
+    flex-direction: row;
+
+}
+.menudiv{
+    
+    min-width: 100px;
+    background-color: yellowgreen;
+   
+    border: 2px solid orange;
+
+}
+.contentdiv{
+    width: 80%;
+    height: 80vh;
+    background-color: bisque;
+}
